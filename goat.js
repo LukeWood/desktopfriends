@@ -1,1 +1,2 @@
-console.log(require("fs"));
+#!/usr/bin/env node
+console.log(__dirname);

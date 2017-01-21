@@ -1,6 +1,6 @@
 {
   "name": "desktopfriends",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Global scripts to launch desktop friends",
   "main": "index.js",
   "scripts": {
