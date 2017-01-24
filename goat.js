@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-console.log(__dirname);
+require("child_process").spawn("java", ["-jar", __dirname+"/java/Goat.jar","1"]);
