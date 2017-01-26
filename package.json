@@ -1,6 +1,6 @@
 {
   "name": "desktopfriends",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Global scripts to launch desktop friends",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
   },
   "bin":{
     "doge":"doge.js",
-    "goat":"goat.js"
+    "goat":"goat.js 1",
+    "goatbomb":"goatbomb.js"
   },
   "author": "Luke Wood",
   "license": "MIT"

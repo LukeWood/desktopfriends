@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 verbose linkPkg /Users/lucaswood/workspace/desktopfriends
+5 silly gentlyRm /usr/local/lib/node_modules/desktopfriends is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/desktopfriends
+7 silly vacuum-fs purging /usr/local/lib/node_modules/desktopfriends
+8 silly vacuum-fs quitting because other entries in /usr/local/lib/node_modules
+9 verbose link build target /usr/local/lib/node_modules/desktopfriends
+10 silly loadCurrentTree Starting
+11 silly install loadCurrentTree
+12 silly install readLocalPackageData
+13 silly install normalizeTree
+14 silly loadCurrentTree Finishing
+15 silly loadIdealTree Starting
+16 silly install loadIdealTree
+17 silly cloneCurrentTree Starting
+18 silly install cloneCurrentTreeToIdealTree
+19 silly cloneCurrentTree Finishing
+20 silly loadShrinkwrap Starting
+21 silly install loadShrinkwrap
+22 silly loadShrinkwrap Finishing
+23 silly loadAllDepsIntoIdealTree Starting
+24 silly install loadAllDepsIntoIdealTree
+25 silly loadAllDepsIntoIdealTree Finishing
+26 silly loadIdealTree Finishing
+27 silly currentTree desktopfriends@1.0.2
+28 silly idealTree desktopfriends@1.0.2
+29 silly generateActionsToTake Starting
+30 silly install generateActionsToTake
+31 silly generateActionsToTake Finishing
+32 silly diffTrees action count 0
+33 silly decomposeActions action count 0
+34 silly runTopLevelLifecycles Starting
+35 silly install runPreinstallTopLevelLifecycles
+36 silly preinstall desktopfriends@1.0.2 /Users/lucaswood/workspace/desktopfriends/desktopfriends-d855c0fd
+37 info lifecycle desktopfriends@1.0.2~preinstall: desktopfriends@1.0.2
+38 silly lifecycle desktopfriends@1.0.2~preinstall: no script for preinstall, continuing
+39 silly executeActions Starting
+40 silly install executeActions
+41 silly doSerial global-install 0
+42 silly doParallel fetch 0
+43 verbose correctMkdir /Users/lucaswood/.npm/_locks correctMkdir not in flight; initializing
+44 verbose lock using /Users/lucaswood/.npm/_locks/staging-5451955f8826d998.lock for /Users/lucaswood/workspace/desktopfriends/node_modules/.staging
+45 silly doParallel extract 0
+46 silly doParallel preinstall 0
+47 silly doReverseSerial remove 0
+48 silly doSerial move 0
+49 silly doSerial finalize 0
+50 silly doSerial build 0
+51 silly doSerial global-link 0
+52 silly doParallel update-linked 0
+53 silly doSerial install 0
+54 silly doSerial postinstall 0
+55 verbose unlock done using /Users/lucaswood/.npm/_locks/staging-5451955f8826d998.lock for /Users/lucaswood/workspace/desktopfriends/node_modules/.staging
+56 silly executeActions Finishing
+57 silly rollbackFailedOptional Starting
+58 silly rollbackFailedOptional Finishing
+59 silly install runPostinstallTopLevelLifecycles
+60 silly build desktopfriends@1.0.2
+61 info linkStuff desktopfriends@1.0.2
+62 silly linkStuff desktopfriends@1.0.2 has /Users/lucaswood/workspace as its parent node_modules
+63 verbose linkBins desktopfriends@1.0.2
+64 verbose linkMans desktopfriends@1.0.2
+65 silly install desktopfriends@1.0.2 /Users/lucaswood/workspace/desktopfriends/desktopfriends-d855c0fd
+66 info lifecycle desktopfriends@1.0.2~install: desktopfriends@1.0.2
+67 silly lifecycle desktopfriends@1.0.2~install: no script for install, continuing
+68 silly postinstall desktopfriends@1.0.2 /Users/lucaswood/workspace/desktopfriends/desktopfriends-d855c0fd
+69 info lifecycle desktopfriends@1.0.2~postinstall: desktopfriends@1.0.2
+70 silly lifecycle desktopfriends@1.0.2~postinstall: no script for postinstall, continuing
+71 silly prepublish desktopfriends@1.0.2 /Users/lucaswood/workspace/desktopfriends/desktopfriends-d855c0fd
+72 info lifecycle desktopfriends@1.0.2~prepublish: desktopfriends@1.0.2
+73 silly lifecycle desktopfriends@1.0.2~prepublish: no script for prepublish, continuing
+74 silly runTopLevelLifecycles Finishing
+75 silly install printInstalled
+76 warn desktopfriends@1.0.2 No repository field.
+77 verbose If you need help, you may report this error at:
+77 verbose     <https://github.com/npm/npm/issues>
+78 info build /usr/local/lib/node_modules/desktopfriends
+79 info linkStuff desktopfriends@1.0.2
+80 silly linkStuff desktopfriends@1.0.2 has /usr/local/lib/node_modules as its parent node_modules
+81 silly linkStuff desktopfriends@1.0.2 is part of a global install
+82 silly linkStuff desktopfriends@1.0.2 is installed into a global node_modules
+83 silly linkStuff desktopfriends@1.0.2 is installed into the top-level global node_modules
+84 verbose linkBins desktopfriends@1.0.2
+85 verbose link bins [ { doge: 'doge.js', goat: 'goat.js 1', goatbomb: 'goat.js 10' },
+85 verbose link bins   '/usr/local/bin',
+85 verbose link bins   true ]
+86 verbose linkMans desktopfriends@1.0.2
+87 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/desktopfriends/goat.js 1'
+87 verbose stack     at Error (native)
+88 verbose cwd /Users/lucaswood/workspace/desktopfriends
+89 error Darwin 16.3.0
+90 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link"
+91 error node v6.9.4
+92 error npm  v3.10.10
+93 error path /usr/local/lib/node_modules/desktopfriends/goat.js 1
+94 error code ENOENT
+95 error errno -2
+96 error syscall chmod
+97 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/desktopfriends/goat.js 1'
+98 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/desktopfriends/goat.js 1'
+98 error enoent This is most likely not a problem with npm itself
+98 error enoent and is related to npm not being able to find a file.
+99 verbose exit [ -2, true ]
